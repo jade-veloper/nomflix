@@ -20,10 +20,19 @@ export default () => (
         exact
         component={Home}
       />
-      <Route path="/tv" component={TV} />
-      <Route path="/search" component={Search} />
-      <Route path="/movie/:id" component={Detail} />
-      <Route path="/show/:id" component={Detail} />
+      <Route path="https://jade-veloper.github.io/nomflix/tv" component={TV} />
+      <Route
+        path="https://jade-veloper.github.io/nomflix/search"
+        component={Search}
+      />
+      <Route
+        path="https://jade-veloper.github.io/nomflix/movie/:id"
+        component={Detail}
+      />
+      <Route
+        path="https://jade-veloper.github.io/nomflix/show/:id"
+        component={Detail}
+      />
       <Redirect from="*" to="/" />
     </Switch>
   </Router>
