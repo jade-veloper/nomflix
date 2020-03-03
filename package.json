@@ -28,7 +28,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepages": "https://jade-veloper.github.io/nomflix",
+  "homepages": "https://keen-hypatia-30948f.netlify.com",
   "browserslist": {
     "production": [
       ">0.2%",
