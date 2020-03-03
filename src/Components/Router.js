@@ -15,7 +15,11 @@ export default () => (
   <Router>
     <Header />
     <Switch>
-      <Route path="/" exact component={Home} />
+      <Route
+        path="https://jade-veloper.github.io/nomflix/"
+        exact
+        component={Home}
+      />
       <Route path="/tv" component={TV} />
       <Route path="/search" component={Search} />
       <Route path="/movie/:id" component={Detail} />
